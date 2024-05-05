@@ -4,10 +4,10 @@ Este é o repositório do projeto Kanastra. Ele consiste em um frontend e um bac
 
 ## Como Executar o Projeto
   - ReactJs
-    npm start
+    - npm start
 
   - Python
-    python manage.py runserver
+    - python manage.py runserver
     
 ### Pré-requisitos
 
