@@ -78,10 +78,14 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'charger',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': ''
+        'PASSWORD': 'junim2002',
+        'HOST': 'localhost',
+        'PORT': '3306',
+        'OPTIONS': {
+          'charset': 'utf8mb4',
+          'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        }
     }
 }
 

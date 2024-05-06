@@ -4,5 +4,4 @@ from django.http import HttpResponse # type: ignore
 
 urlpatterns = [
     path('charges', views.charges, name='charges')
-    path('', lambda x: HttpResponse('Teste Django'))
 ]

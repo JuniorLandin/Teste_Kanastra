@@ -1,6 +1,6 @@
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
-from .models import Charge
+from .models import Charges
 import json
 from django.views.decorators.csrf import csrf_exempt
 
@@ -8,7 +8,7 @@ from django.views.decorators.csrf import csrf_exempt
 def charges(request):
   if request.method == 'POST':
       data = json.loads(request.body)
-      charge = Charge.objects.create(
+      charge = Charges.objects.create(
           name=data['name'],
           government_id=data['governmentId'],
           email=data['email'],

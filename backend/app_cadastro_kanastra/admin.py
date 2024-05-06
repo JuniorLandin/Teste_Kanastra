@@ -1,4 +1,4 @@
 from django.contrib import admin
-from .models import Charge
+from .models import Charges
 
-admin.site.register(Charge)
+admin.site.register(Charges)

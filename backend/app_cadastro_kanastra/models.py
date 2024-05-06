@@ -1,6 +1,6 @@
 from django.db import models
 
-class Charge(models.Model):
+class Charges(models.Model):
   name = models.CharField(max_length=255)
   government_id = models.CharField(max_length=11)
   email = models.EmailField()
