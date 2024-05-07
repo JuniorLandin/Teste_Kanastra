@@ -8,6 +8,8 @@ Este é o repositório do projeto Kanastra. Ele consiste em um frontend e um bac
 
   - Python
     - python manage.py runserver
+   
+      endPoint: http://127.0.0.1:8000/charger
     
 ### Pré-requisitos
 
