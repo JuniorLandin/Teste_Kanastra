@@ -1,10 +1,10 @@
-import './App.css';
+import { HelloKanastra } from "./components/HelloKanastra";
 
 function App() {
   return (
-    <>
-      <h1>Hello Kanastra!</h1>
-    </>
+    <div>
+      <HelloKanastra />
+    </div>
   );
 }
 
